@@ -31,7 +31,7 @@ let pageSlider = new Swiper('.page', {
 
     watchOverflow: true,
 
-    parallax: true,
+    // parallax: true,
 
     speed: 800,
 
