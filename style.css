@@ -65,6 +65,14 @@ body {
     position: relative;
 }
 
+.blue {
+    background-color: rgb(156, 156, 216);
+}
+
+.green {
+    background-color: rgb(58, 197, 58);
+}
+
 
 
 
