@@ -9,7 +9,9 @@ let pageSlider = new Swiper('.page', {
 
     direction: 'vertical',
 
-    slidesPerView: 1,
+    slidesPerView: 'auto',
+
+    // allowTouchMove: false,
 
 
     keyboard: {
@@ -54,5 +56,15 @@ let pageSlider = new Swiper('.page', {
 
         draggable: true,
     }, */
+    // IOSEdgeSwipeDetection: true,
 
-})
+    // nested: true,
+    // grabCursor: true,
+});
+
+
+// pageSlider.enableTouchControl();
+
+// pageSlider.on('touchMove', (e) => {
+//     console.log(e);
+// })
